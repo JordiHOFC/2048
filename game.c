@@ -523,7 +523,7 @@ int gerarNum(){ // fun��o respons�vel por gerar os numeros 2 ou 4
 }
 
 void  sorteiaposicao(P * vetor, int matriz[][tabuleiro],int *placar){  // sortei em qual posi��o vazia do tabuleiro o numero 2 ou 4 ser� inserido
-	int tamanhovetor=(vetor)[0].tamanho; // tamanho vetor recebe o tamanho do vetor de posi�oes vazias
+	int tamanhovetor=(vetor)[0].tamanho; // tamanho vetor recebe o tamanho do vetor de posi�oes sem nenhum valor
 	int aux[tabuleiro][tabuleiro]; // cria tabuleiro auxiliar
 	copiaMatriz(matriz
 	,aux); // copia o tabuleiro para o tabuleiro auxiliar
